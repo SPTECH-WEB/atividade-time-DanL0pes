@@ -17,4 +17,8 @@ public class Time {
     public void registrarDerrota(){
         derrotas++;
     }
+
+    public Integer getPontos(){
+        return vitorias * 3 + empates;
+    }
 }
