@@ -27,6 +27,8 @@ public class Time {
     }
 
     public Integer getAproveitamento(){
-        return vitorias/(vitorias+derrotas+empates)*100;
+        double aproveitamento = (double)vitorias / getTotalPartidas()*100;
+        return(int) aproveitamento;
     }
+
 }
