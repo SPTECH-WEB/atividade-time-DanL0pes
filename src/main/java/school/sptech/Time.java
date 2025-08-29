@@ -48,6 +48,5 @@ public class Time {
         System.out.println("Total de Partidas: "+this.getTotalPartidas());
         System.out.println("Aproveitamento: "+this.getAproveitamento()+"%");
         System.out.println("---");
-
     }
 }
