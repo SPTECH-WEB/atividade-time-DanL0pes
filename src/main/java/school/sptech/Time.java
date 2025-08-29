@@ -21,4 +21,8 @@ public class Time {
     public Integer getPontos(){
         return vitorias * 3 + empates;
     }
+
+    public Integer getTotalPartidas(){
+        return vitorias + derrotas + empates;
+    }
 }
