@@ -31,4 +31,11 @@ public class Time {
         return(int) aproveitamento;
     }
 
+    public void compararAproveitamento(Time adversario){
+        if(this.getAproveitamento() > adversario.getAproveitamento()){
+            System.out.println("O time "+this.nome+" tem um aproveitamento maior que o time "+adversario.nome+".");
+        } else{
+            System.out.println("O time "+adversario.nome+" tem um aproveitamento maior que o time "+this.nome+".");
+        }
+    }
 }
