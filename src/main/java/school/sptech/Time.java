@@ -10,4 +10,14 @@ public class Time {
         derrotas = 0;
         empates = 0;
     }
+
+    public void registrarVitoria(){
+        this.vitorias++;
+    }
+    public void registrarEmpate(){
+        this.empates++;
+    }
+    public void registrarDerrota(){
+        this.derrotas++;
+    }
 }
