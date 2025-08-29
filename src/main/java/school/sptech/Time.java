@@ -38,4 +38,15 @@ public class Time {
             System.out.println("O time "+adversario.nome+" tem um aproveitamento maior que o time "+this.nome+".");
         }
     }
+
+    public void exibirInformacoes(){
+        System.out.println("Time: "+this.nome);
+        System.out.println("Vitórias: "+this.vitorias);
+        System.out.println("Derrotas: "+this.derrotas);
+        System.out.println("Empates: "+this.empates);
+        System.out.println("\nPontos: "+this.getPontos());
+        System.out.println("Total de Partidas: "+this.getTotalPartidas());
+        System.out.println("Aproveitamento: "+this.getAproveitamento()+"%");
+        System.out.println("---");
+    }
 }
