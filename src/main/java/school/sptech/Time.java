@@ -25,4 +25,8 @@ public class Time {
     public Integer getTotalPartidas(){
         return vitorias + derrotas + empates;
     }
+
+    public Integer getAproveitamento(){
+        return vitorias/(vitorias+derrotas+empates)*100;
+    }
 }
